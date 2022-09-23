@@ -112,6 +112,22 @@ padding: 10px 24px;
     padding-bottom: 94px;
 }
 
+.article-item:first-child::before{
+    content: url("./svg/uvaga\ do\ detaley.svg");
+}
+
+.article-item:nth-child(2)::before{
+    content: url("./svg/punctualnist\'.svg");
+}
+
+.article-item:nth-child(3)::before{
+    content: url("./svg/planuvanna.svg");
+}
+
+.article-item:last-child::before{
+    content: url("./svg/suchasni\ technologii.svg");
+}
+
 .article-list{
   display: flex; 
    
@@ -241,6 +257,8 @@ color: #212121;
 
 .footer{
 background: #2F303A;
+width: 1600px;
+height: 252px;
 }
 
 .footer-link{
@@ -249,10 +267,8 @@ background: #2F303A;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: #2196F3;
-      
 }
 
 .footer-span{
@@ -274,12 +290,17 @@ font-family: "Roboto";
     font-weight: 400;
 font-size: 14px;
 line-height: 1;
-/* or 171% */
+
 margin-top: 9px;
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 font-family: "Roboto";
+}
+
+.footer-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .body{
