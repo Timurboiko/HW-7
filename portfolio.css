@@ -86,6 +86,19 @@ list-style: none;
     
 }
 
+.team-card:nth-child(1){
+    margin: 0px;
+}
+
+.team-card:nth-child(4){
+    margin: 0px;
+}
+
+.team-card:nth-child(7){
+    margin: 0px;
+}
+
+
 .team-card-text{
     font-family: 'Roboto';
 font-style: normal;
@@ -106,6 +119,8 @@ color: #757575;
 
 .footer{
     background: #2F303A;
+    width: 1600px;
+height: 252px;
     }
     
     .footer-link{
@@ -146,17 +161,21 @@ color: #757575;
 
 .main{
     font-family: "Roboto";
-    color: #FFFFFF;
+    
+}
+
+.footer-section{
+    padding-top: 60px;
 }
 
 .team-card-list{
     margin-left: 215px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 94px;
 }
 
 .button-list{
-    margin-left: 495px;
     margin-top: 94px;
     list-style: none;
     display: flex;
